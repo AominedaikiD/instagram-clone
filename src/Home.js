@@ -71,7 +71,7 @@ function Home({user})
                         onAfterRender={() => {}}
                         onFailure={() => {}}
                         /> */}
-                        <h1>This is Instagram Embed</h1>
+                        {/* <h1>This is Instagram Embed""</h1> */}
                         </Grid>
                     </Grid>
                 
