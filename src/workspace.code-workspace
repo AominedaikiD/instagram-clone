@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "..\\.."
+		}
+	],
+	"settings": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnType": true,
+		"php.validate.executablePath": ""
+	}
+}

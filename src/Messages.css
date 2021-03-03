@@ -1,0 +1,29 @@
+.messages{
+    display: grid;
+    display: flex;
+    background-color: #ededed;
+    margin-left: 20px;
+    height: 90vh;
+    width: 90vw;
+    box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.75);
+}
+.message__createNewMessage{
+    display: grid;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #ffffff;
+    flex-direction: column;
+    flex: 0.65;
+}
+.message__createNewMessage>img{
+    object-fit: contain;
+}
+.message__createNewMessage>h1{
+    align-items: center;
+    font-weight: 500;
+}
+.message__createNewMessage>h2{
+    align-items: center;
+    font-weight: 300;
+}

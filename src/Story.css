@@ -1,0 +1,11 @@
+.story{
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 1opx;
+    cursor: pointer;
+}.story:hover{
+    transform: scale(1.07);
+}
+/* .story__avatar */

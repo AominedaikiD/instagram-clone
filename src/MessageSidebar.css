@@ -1,0 +1,28 @@
+.messageSidebar{
+    display: flex;
+    background-color: #fafafa;
+    margin-top: 20px;
+    flex-direction: column;
+    flex: 0.35;
+    border: 1px solid lightgray;
+}
+.messageSidebar__header{
+    display: flex;
+    position: sticky;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid lightgray;
+    min-width: 10vw;
+}
+.messageSidebar__headerinfo{
+    flex: 1;
+    align-items: center;
+    display: flex;
+}
+.messageSidebar__chats{
+    flex: 1;
+    background-color: white;
+    overflow: scroll;
+}

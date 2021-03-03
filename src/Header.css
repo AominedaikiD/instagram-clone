@@ -1,0 +1,72 @@
+.header{
+  height: 60px;
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid lightgrey;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+  }
+.header__right{
+  display: flex;
+  padding: 20px;
+}
+.header__input{
+  display: flex;
+  align-items: center;
+  background-color: #f6f6f6;
+  height: 35px;
+  padding: 10px;
+  
+  /* margin-left: 10px; */
+}
+.header__input>.MuiSvgIcon-root{
+  color: gray;
+  padding: 10px;
+  align-items: center;
+}
+.header__input>input{
+  background-color: #fafafa;
+  border: none;
+  outline-width: 0;
+}
+.header__left{
+  align-items: center;
+}
+.header__option:hover{
+    background-color: lightblue;
+    border-radius: 10px;
+    
+}
+.header__option{
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+.header__option--active>.MuiSvgIcon{
+  color: black;
+
+}
+.header__info{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.header__left>img{
+  object-fit: contain;
+}
+.signIn__Button{
+  width: 100px;
+  height: 40px;
+  background-color: tomato;
+  color: greenyellow;
+}
+.signIn__Button:hover{
+  background-color: blue;
+  cursor: pointer;
+}

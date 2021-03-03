@@ -1,0 +1,76 @@
+.login__page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fafafa;
+    height: fit-content;
+}
+.login__headerImage{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.login__container{
+    background-color: white;
+    width: 400px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    padding: 30px;
+}
+.login__input{
+    height: 40px;
+    width: 400px;
+    margin-bottom: 10px;
+    background-color: rgb(248, 247, 247);
+}
+.login__password{
+    height: 40px;
+    width: 400px;
+    margin-bottom: 10px;
+    background-color: rgb(248, 247, 247);
+}
+.login__loginButton{
+    width: 400px;
+    height: 30px;
+    background-color: rgb(12, 121, 231);
+    border-radius: 2px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: rgb(12, 121, 231) ;
+}
+.login__loginButton:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+.signIndiv{
+    background-color: white;
+    margin-top: 20px;
+    width: 400px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 30px;
+}
+.login__signInButton{
+    width: 400px;
+    height: 30px;
+    background-color: white;
+    border-radius: 2px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: lightgrey ;
+}
+.login__signInButton:hover{
+    background-color: rgb(12, 121, 231);
+    cursor: pointer;
+}
+
+
